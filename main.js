@@ -10,6 +10,7 @@ createApp({
             direccion: '',
             municipio: '',
             departamento: '',
+            distrito: '',
             telefono: '',
             email: '',
             fechaNacimiento: '',
@@ -38,6 +39,7 @@ createApp({
             this.direccion = alumno.direccion;
             this.municipio = alumno.municipio;
             this.departamento = alumno.departamento;
+            this.distrito = alumno.distrito;
             this.telefono = alumno.telefono;
             this.email = alumno.email;
             this.fechaNacimiento = alumno.fechaNacimiento;
@@ -50,6 +52,7 @@ createApp({
                 direccion: this.direccion,
                 municipio: this.municipio,
                 departamento: this.departamento,
+                distrito: this.distrito,
                 telefono: this.telefono,
                 email: this.email,
                 fechaNacimiento: this.fechaNacimiento,

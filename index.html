@@ -45,9 +45,9 @@
                                         <input required v-model="departamento" type="text" name="txtDepartamentoAlumno" id="txtDepartamentoAlumno" class="form-control">
                                     </div>
                                     <div class="row p-1">
-                                        <div class="col-3 col-md-2">DISTRITOS</div>
+                                        <div class="col-3 col-md-2">DISTRITO</div>
                                         <div class="col-9 col-md-4">
-                                            <input v-model="distritos" type="text" name="txtdistritosAlumnos" id="txtdistritosAlumno" class="form-control">
+                                            <input v-model="distrito" type="text" name="txtdistritoAlumnos" id="txtdistritoAlumno" class="form-control">
                                         </div>
                                     </div>
                                 <div class="row p-1">
@@ -96,6 +96,7 @@
                                 <th>DIRECCION</th>
                                 <th>MUNICIPIO</th>
                                 <th>DEPARTAMENTO</th>
+                                <th>DISTRITO</th>
                                 <th>TELEFONO</th>
                                 <th>EMAIL</th>
                                 <th>FECHA DE NACIMIENTO</th>
@@ -110,6 +111,7 @@
                                 <td>{{ alumno.direccion }}</td>
                                 <td>{{ alumno.municipio }}</td>
                                 <td>{{ alumno.departamento }}</td>
+                                <td>{{ alumno.distrito }}</td>
                                 <td>{{ alumno.telefono }}</td>
                                 <td>{{ alumno.email }}</td>
                                 <td>{{ alumno.fechaNacimiento }}</td>
